@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Nosotros</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<style>
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
+        .fade-carousel .slides .slide-1,
+        .fade-carousel .slides .slide-2,
+        .fade-carousel .slides .slide-3 {
+            height: 700px;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+
+        .fade-carousel .slides .slide-1 {
+            background-image: url(https://images.alphacoders.com/770/770852.jpg);
+        }
+
+        .fade-carousel .slides .slide-3 {
+            background-image: url(https://images7.alphacoders.com/394/394350.jpg);
+        }
+
+        .fade-carousel .slides .slide-2 {
+            background-image: url(https://images6.alphacoders.com/398/398992.jpg);
+        }
+
+        .hero {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: 3;
+            color: #fff;
+            text-align: center;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+            -webkit-transform: translate3d(-50%,-50%,0);
+            -moz-transform: translate3d(-50%,-50%,0);
+            -ms-transform: translate3d(-50%,-50%,0);
+            -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+        }
+
+            .hero h1 {
+                font-size: 6em;
+                font-weight: bold;
+                margin: 0;
+                padding: 0;
+                font-family: 'Pacifico', sans-serif;
+            }
+
+        .fade-carousel .carousel-inner .item .hero {
+            opacity: 0;
+            -webkit-transition: 2s all ease-in-out .1s;
+            -moz-transition: 2s all ease-in-out .1s;
+            -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
+        }
+
+        .fade-carousel .carousel-inner .item.active .hero {
+            opacity: 1;
+            -webkit-transition: 2s all ease-in-out .1s;
+            -moz-transition: 2s all ease-in-out .1s;
+            -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
+        }
+
+        .footer-bottom {
+            background: #E3E3E3;
+            border-top: 5px solid #2e1f1f;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 20px;
+            color: #2e1f1f;
+        }
+        i {
+            color: #2e1f1f;
+        }
+
+        .imgcab {
+            width: auto;
+            height: 40px;
+            background: url(../img/cab.png);
+            background-repeat: repeat-x;
+           
+        }
+
+
+			article {
+				padding: 3em 3em;
+				text-align: center;
+				color: black;
+				margin: 0 0;
+			}
+
+              article h1 {
+                    font-family: 'Alegreya Sans SC', sans-serif;
+                    font-size: 33px;
+                    margin-bottom: 0.5em;
+                    color: darkred;
+                }
+        .cab {
+            background-color: #2e1f1f;
+            height:5px;
+            width:100%;
+        }
+	</style>
+
+</head>
+<body>
+
+    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#bs-carousel" data-slide-to="1"></li>
+            <li data-target="#bs-carousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item slides active">
+                <div class="slide-1"></div>
+                <div class="hero">
+                    <hgroup>
+                        <h1>Pâtissierie</h1>
+                        <h3>¿TU INSÍPIDO DÍA NECESITA ALGO DULCE?</h3>
+                    </hgroup>
+                    <a href="#sectionP"><button class="btn btn-lg" role="button">chequea nuestros postres</button></a>
+                </div>
+
+            </div>
+            <div class="item slides">
+                <div class="slide-2"></div>
+                <div class="hero">
+                    <hgroup>
+                        <h1>Pâtissierie</h1>
+                        <h3>¿DESEA DEJAR SU OPINIÓN?</h3>
+                    </hgroup>
+                    <a href="#sectionC"><button class="btn btn-lg" role="button">cotactanos</button></a>
+                </div>
+            </div>
+
+            <div class="item slides">
+                <div class="slide-3"></div>
+                <div class="hero">
+                    <hgroup>
+                        <h1>Pâtissierie</h1>
+                        <h3>¿TE INTERESAMOS?</h3>
+                    </hgroup>
+                    <a href="#sectionN"><button class="btn btn-lg" role="button">conósenos</button></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+	<div id="sectionN" style="background: url(../img/bgs.gif);
+			background-repeat: repeat-y;
+			background-repeat: repeat-x;
+            height:600px">
+		<div class="imgcab"></div>
+		<div class="container">
+			<div class="main row">
+
+				<article>
+                    <h1>Nosotros</h1>
+                    <i class="fa fa-star fa-lg" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                    <p> </p>
+          
+                             <DIV class="col-md-12">
+                                    <p>
+                                        " Producimos tortas, postres para todo tipo de celebraciones,
+                                        elaboradas con el mas avanzado control de higiene, calidad y
+                                        tecnología en diseño y manufactura; utilizando como materia prima básica harina,
+                                        con diseños innovadores acordes a cada celebración, con acabados impecables
+                                        permitiendo así una plena satisfacción de nuestros clientes. Creamos productos con garantía,
+                                        calidad tamaño y frescura ideal para la aceptación total."
+                                    </p>
+                             </DIV>
+                    <p> </p>
+                    <p> </p>
+                             <DIV class="col-md-6 hidden-sm hidden-xs">
+                                    <h1>Misión</h1>
+                                 <p>
+                                     "Somos una empresa responsable y honesta contigo y el entorno,
+                                     elaboramos ricos pasteles y postres con nuestro tradicional toque francés,
+                                     para consentir el gusto de tus seres queridos, siendo parte de tus momentos
+                                     mas especiales".
+                                 </p>
+                            </DIV>
+                            <DIV class="col-md-6 hidden-sm hidden-xs">
+                                <h1>Visión</h1>
+                                <p>
+                                    "Ser la mejor opción en pasteles y postres, con un equipo humano competente y
+                                    capaz, aprovechando las oportunidades para crecer ordenadamente e impulsar el
+                                    bienestar de quienes participamos con PATISSIERIE y nuestro entorno".
+                                </p>
+                            </DIV>
+                   </article>         
+                   
+			</div>
+		</div>
+	</div>
+    <div id="sectionP" style="background: url(../img/patron.jpg);
+			background-repeat: repeat-y;
+			background-repeat: repeat-x;
+            height:800px">
+        <div class="cab"></div>
+        <div class="container">
+            <div class="main row">
+
+                <article>
+                    <h1>Productos</h1>
+                    <i class="fa fa-star fa-lg" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                    <p> </p>
+                    <iframe src="FProductos.aspx" frameborder="0" scrolling="yes" style="width: 100%; height: 505px;"></iframe>
+                    <a href="PCarrito.html#section"><button class="btn btn-lg" role="button">Terminar Compra</button></a>
+
+                </article>
+
+            </div>
+        </div>
+    </div>
+    <div id="sectionC" style="background: url(../img/contacto.jpg);
+			background-repeat: repeat-y;
+			background-repeat: repeat-x;
+            height:600px">
+        <div class="cab"></div>
+        <div class="container">
+            <div class="main row">
+
+                <article>
+                    <h1>Contacto</h1>
+                    <i class="fa fa-star fa-lg" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                    <p> </p>
+                    <iframe src="FContacto.aspx" frameborder="0" scrolling="yes" style="width: 100%; height: 400px;"></iframe>
+
+                </article>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer-bottom">
+        <div class="container">
+            <center>
+                <img src="../img/logoInferior.png" alt="" /><br />
+                <p style="font-size:15px"> Pâtisserie &copy; 2017. Todos los derechos reservados. </p>
+
+            </center>
+        </div>
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
